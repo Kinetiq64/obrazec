@@ -1,0 +1,208 @@
+body{
+	color: gray;
+}
+
+
+.box{
+	width: 440px;
+	height: 1020px;
+	margin: auto;
+	background: white;
+	border-radius: 20px;
+	text-align:center;
+	
+}
+
+.box1{
+	width: 440px;
+	height: 590px;
+	margin: auto;
+	background: white;
+	border-radius: 20px;
+	text-align:center;
+	
+}
+
+h1{
+	text-align: center;
+	color: gray;
+	
+}
+
+h2{
+	text-align: left;
+	color: black;
+	font-family: Arial, sans-serif;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+}
+
+h4{
+	text-align: center;
+	font-family: Arial, sans-serif;
+	margin-top: 50px;
+}
+
+form{
+	width: 400px;
+	margin-left: 20px;
+	font-family: Arial, sans-serif;
+}
+
+form label{
+	display: flex;
+	margin-top: 30px;
+	
+}
+
+form input{
+	width: 94%;
+	padding: 8px;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	border-left: 0;
+    border-right: 0;
+    border-top: 0;
+
+}
+
+form input:hover{
+	border-bottom-color: #0088cc;
+}
+
+
+img{
+	margin-top: 30px;
+	width: 400px;
+	height: 100px;
+	
+}
+
+p{
+	font-family: Arial, sans-serif;
+	color: black;
+	text-align: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+
+}
+
+button{
+	width: 400px;
+	height: 40px;
+	color: white;
+	background: #0088cc;
+	text-shadow: rgb(0,60,89) 0px 0px 6px;
+	border-radius: 8px;
+	border: none;
+	font-size: 15px;
+	margin-top: 20px;
+	cursor: pointer;
+
+}
+
+button:hover{
+	background: #006acc;
+}
+
+.checkbox{
+	width: 16px;
+    height: 16px;
+}
+
+.login-link{
+    color: #058ACD;
+	float: right;
+    text-decoration: none; 
+}
+
+.login-link:hover{
+    color: #006acc;
+}
+
+select{
+	padding: 10px;
+	font-size: 15px;
+	background-color: white;
+	border-left: 0;
+    border-right: 0;
+    border-top: 0;
+	border-width: 2px;
+	width: 32%;
+	margin-bottom: 15px;
+}
+
+select:hover{
+	border-bottom-color: #0088cc;
+}
+
+/* Customize the label (the container) */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+  
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+  
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+  
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  
+  
+}
